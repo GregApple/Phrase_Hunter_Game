@@ -9,7 +9,7 @@ class Game:
       # used to track the number of incorrect guesses by the user. The initial value is 0 since no guesses have been made at the start of the game.
       self.missed  = 0
       # a list of five Phrase objects to use with the game. A phrase should only include letters and spaces -- no numbers, puntuation or other special characters.
-      self.phrases = [Phrase('cut to the chase'), Phrase('the final countdown'), Phrase('pam ate the cheese'), Phrase('possibly the worst'), Phrase('could be better')]
+      self.phrases = [Phrase('cut to the chase'), Phrase('the final countdown'), Phrase('right on the nose'), Phrase('possibly the worst'), Phrase('could be better')]
       # This is the Phrase object that's currently in play. The initial value will be None. Within the start_game() method, this property will be set to the Phrase object returned from a call to the get_random_phrase() method
       self.phrase = None
       # This is a list that contains the letters guessed by the user.
